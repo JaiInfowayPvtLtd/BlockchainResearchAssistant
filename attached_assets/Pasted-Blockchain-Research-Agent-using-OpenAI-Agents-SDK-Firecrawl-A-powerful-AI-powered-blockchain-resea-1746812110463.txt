@@ -1,0 +1,67 @@
+Blockchain Research Agent using OpenAI Agents SDK & Firecrawl
+A powerful AI-powered blockchain research assistant built with OpenAI's Agents SDK and Firecrawl, designed to perform deep, structured research across decentralized ecosystems, protocols, trends, and compliance frameworks.
+
+🧠 Features
+Protocol-Level Research: Automatically explores L1/L2 networks, smart contract platforms, DeFi protocols, NFTs, DAOs, and blockchain-specific whitepapers.
+
+Firecrawl + OpenAI: Combines Firecrawl’s web scraping and research automation with OpenAI’s Agents SDK for layered understanding and commentary.
+
+Streamlined UI: Simple and elegant Streamlit interface tailored for blockchain professionals.
+
+Exportable Reports: Download markdown reports with links, summaries, and elaborated context for easy sharing.
+
+⚙️ How It Works
+Input Phase
+Enter a blockchain-related research topic and your API credentials (OpenAI + Firecrawl).
+
+Exploration Phase
+Firecrawl scours blockchain-specific domains like GitHub repos, crypto blogs, whitepapers, and technical documentation.
+
+Synthesis Phase
+A Research Agent generates an initial analysis of the findings — covering technical specs, adoption metrics, tokenomics, and roadmap milestones.
+
+Elaboration Phase
+A secondary Elaboration Agent enhances the report by explaining mechanisms, offering case studies (e.g., zk-rollups vs optimistic rollups), and identifying potential regulatory, security, or scaling implications.
+
+Delivery Phase
+The full research dossier is presented in-app and downloadable as a markdown file.
+
+🛠️ Setup Instructions
+Requirements:
+
+Python 3.8+
+
+OpenAI API Key
+
+Firecrawl API Key
+
+Required packages in requirements.txt
+
+Installation:
+
+bash
+Copy
+Edit
+git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
+cd ai_agent_tutorials/ai_deep_research_agent
+pip install -r requirements.txt
+streamlit run deep_research_openai.py
+Enter your API keys in the sidebar, type your topic, and hit "Start Research".
+
+🧪 Example Blockchain Research Prompts
+“How zkEVMs are reshaping Ethereum scalability”
+
+“Comparison of Solana and Sui’s parallel execution models”
+
+“Regulatory status of crypto staking in the US and EU”
+
+“DAO governance attacks and mitigation frameworks”
+
+“The role of account abstraction in Web3 UX evolution”
+
+🧬 Technical Architecture
+Firecrawl: Performs iterative web crawling across crypto-specific knowledge sources including GitHub, Mirror, Medium, Whitepapers, Token Docs, and forums like X/Twitter, Reddit, and Stack Exchange.
+
+Research Agent: Synthesizes protocol details, architecture diagrams, TVL trends, dev activity, and funding data.
+
+Elaboration Agent: Adds economic implications, scalability trade-offs, real-world adoption examples, and compliance insights.

@@ -13,8 +13,8 @@ A powerful AI-powered blockchain research assistant built with OpenAI's Agents S
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blockchain-research-assistant.git
-cd blockchain-research-assistant
+git clone https://github.com/JaiInfowayPvtLtd/BlockchainResearchAssistant.git
+cd BlockchainResearchAssistant
 ```
 
 2. Create requirements.txt (If Not Present)
